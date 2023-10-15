@@ -1,0 +1,8 @@
+<image schemaversion="7.4" name="Tumbleweed_appliance">
+  <!-- snip -->
+  <preferences>
+    <type image="iso" primary="true" flags="overlay" hybridpersistent_filesystem="btrfs" hybridpersistent="true"/>
+    <!-- additional preferences -->
+  </preferences>
+  <!-- snip -->
+</image>
