@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
     build:
-      runs-on: opensuse/tumbleweed
+      runs-on: opensuse/leap
       steps:
       - name: set up
         run: |
