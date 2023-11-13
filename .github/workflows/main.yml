@@ -1,10 +1,10 @@
 name: AmogOS openSUS builder
 on:
   workflow_dispatch:
-  jobs:
-  build:
-    runs-on: opensuse/tumbleweed:latest
-  steps:
-    - name: set up
-    run: |
-      neofetch
+jobs:
+    build:
+      runs-on: opensuse/tumbleweed:latest
+      steps:
+      - name: set up
+        run: |
+          neofetch
