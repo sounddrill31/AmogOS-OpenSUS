@@ -1,4 +1,0 @@
-tasks:
-  - command: git clone https://github.com/OSInside/kiwi && mkdir out && sudo kiwi-ng system build --description kiwi/build-tests/x86/tumbleweed/test-image-live  --set-repo obs://openSUSE:tumbleweed/standard -target-dir out --target-arch=arm64
-image:
-  file: .gitpod.Dockerfile
